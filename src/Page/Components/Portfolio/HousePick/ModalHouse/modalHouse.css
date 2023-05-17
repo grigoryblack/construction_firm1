@@ -1,0 +1,130 @@
+.carousel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    width: 700px;
+    height: auto;
+}
+
+.modal-house-img{
+    max-height: 530px;
+    width: 100.01%;
+    height: auto;
+    object-fit: cover;
+}
+
+.carousel_button-last{
+    position: absolute;
+    top: 50%;
+
+    left: 1%;
+
+    border: none;
+    background: rgba(250, 245, 58, 0.50);
+
+    color: white;
+    padding: 10px;
+    border-radius: 100px;
+    display: flex;
+    cursor: pointer;
+}
+
+.carousel_button-last:hover{
+    background: rgba(250, 245, 58, 0.80);
+    color: black;
+}
+
+.carousel_button-next{
+    position: absolute;
+    top: 50%;
+    right: 1%;
+
+    background: rgba(250, 245, 58, 0.50);
+    color: white;
+
+    padding: 10px;
+    border-radius: 100px;
+    display: flex;
+    border: none;
+    cursor: pointer;
+}
+.carousel_button-next:hover{
+    background: rgba(250, 245, 58, 0.80);
+    color: black;
+}
+
+
+.title-house-modal{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+
+    font-size: 20px;
+    font-weight: 600;
+    width: 100%;
+    max-width: 600px;
+}
+
+.subtitle-house-modal{
+    font-size: 15px;
+    max-width: 600px;
+    margin-left: 20px;
+    width: 100%;
+    line-height: 25px;
+}
+
+.subtitle-house-modal span{
+    font-weight: 500;
+}
+
+
+@media (max-width: 800px) {
+    .carousel{
+        width: 520px;
+        height: 350px;
+    }
+}
+
+@media (max-width: 550px) {
+    .carousel{
+        width: 320px;
+        height: 240px;
+    }
+    .carousel_button-last{
+            padding: 2px;
+    }
+    .carousel_button-next{
+        padding: 2px;
+    }
+    .title-house-modal{
+        width:200px;
+    }
+    .subtitle-house-modal{
+        width:290px;
+        font-size: 12px;
+        line-height: 25px;
+    }
+}
+
+@media (max-width: 350px) {
+    .carousel{
+        width: 260px;
+        height: 200px;
+    }
+    .carousel_button-last{
+        padding: 2px;
+    }
+    .carousel_button-next{
+        padding: 2px;
+    }
+    .title-house-modal{
+        width:200px;
+        font-size: 15px;
+    }
+    .subtitle-house-modal{
+        width:235px;
+        font-size: 10px;
+        line-height: 20px;
+    }
+}

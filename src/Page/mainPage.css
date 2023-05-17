@@ -1,0 +1,32 @@
+.wrapper{
+    max-width: 1300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button-to-top {
+    background: rgba(250, 245, 58, 0.80);
+    color: #ffffff;
+    border: none;
+    padding: 10px 12px 10px 12px;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button-to-top:hover{
+    background: rgba(250, 245, 58, 1);
+    color: black;
+}
+
+
+
+@media (max-width: 350px) {
+    .button-to-top{
+        padding: 7px 9px 7px 9px;
+    }
+}

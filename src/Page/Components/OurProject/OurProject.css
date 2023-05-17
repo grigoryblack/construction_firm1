@@ -1,0 +1,31 @@
+.our-project-title{
+    margin-top: 30px;
+    font-size: 28px;
+    font-weight: 600;
+    color: #FAF53A;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #FAF53A;
+    width: 230px;
+    margin-bottom: 20px;
+    cursor: default;
+}
+
+.our-project{
+    position: relative;
+}
+
+@media (max-width: 800px) {
+    .our-project-title{
+        font-size: 25px;
+        width: 200px;
+    }
+}
+
+
+@media (max-width: 350px) {
+    .our-project-title{
+        font-size: 20px;
+        width: 150px;
+    }
+}
+
